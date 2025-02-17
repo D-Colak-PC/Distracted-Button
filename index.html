@@ -9,7 +9,11 @@
 </head>
 <body>
     <div id="container">
-        <button id="button" type="button" onclick="increaseCounter()">Distracted?</button>
+        <div id="buttons">
+            <button class="button main" type="button" onclick="increaseCounter()">Distracted?</button>
+            <button class="button plus" type="button" onclick="increaseCounter()">+</button>
+            <button class="button minus" type="button" onclick="decreaseCounter()">-</button>
+        </div>
         <h1 id="text">Distracted Count: <span id="counter">0</span></h1>
     </div>
 </body>
